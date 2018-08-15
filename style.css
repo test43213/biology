@@ -1,0 +1,83 @@
+body {
+    font-family: Helvetica;
+}
+
+nav {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .articles {
+    background-color: wheat;
+    width: 87%;
+}
+
+main aside {
+    background-color: aquamarine;
+    width: 12%;
+}
+
+.modal {
+    position: fixed;
+    background-color: white;
+    top: 15%;
+    bottom: 15%;
+    left: 15%;
+    right: 15%;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.modal-view h1::after {
+    content: "X";
+    font-size: 30px;
+    color: red;
+    float: right;
+}
+
+#cookies-modal:target {
+    display: none;
+}
+
+.placeholder {
+    position: relative;
+    background-color: white;
+}
+
+.placeholder p {
+    position: relative;
+}
+
+.placeholder2 {
+    position: absolute;
+    background-color: darksalmon;
+}
+
+.placeholder2 p {
+    position: absolute;
+}
+
+.spaces {
+    font-size: 34px;
+}
+
+.spaces div:nth-child(1) {
+    font-size: 14px;
+    display: inline;
+    background-color: blue;
+}
+
+.spaces div:nth-child(2) {
+    font-size: 14px;
+    display: inline;
+    background-color: red;
+}
